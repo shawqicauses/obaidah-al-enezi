@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT
+// DONE REVIEWING: GITHUB COMMIT 1️⃣
 
 /* eslint import/no-extraneous-dependencies: "off" */
 
@@ -54,6 +54,12 @@ export default {
           light: "rgb(var(--secondary-light) / <alpha-value>)",
           dark: "rgb(var(--secondary-dark) / <alpha-value>)",
           foreground: "rgb(var(--secondary-foreground) / <alpha-value>)"
+        },
+        "tertiary": {
+          DEFAULT: "rgb(var(--tertiary) / <alpha-value>)",
+          light: "rgb(var(--tertiary-light) / <alpha-value>)",
+          dark: "rgb(var(--tertiary-dark) / <alpha-value>)",
+          foreground: "rgb(var(--tertiary-foreground) / <alpha-value>)"
         },
         "accent": {
           DEFAULT: "rgb(var(--accent) / <alpha-value>)",
@@ -276,10 +282,15 @@ export default {
           "--primary-dark": toRGB(colors.red["600"]),
           "--primary-foreground": toRGB(colors.red["50"]),
 
-          "--secondary": toRGB(colors.indigo["500"]),
-          "--secondary-light": toRGB(colors.indigo["400"]),
-          "--secondary-dark": toRGB(colors.indigo["600"]),
-          "--secondary-foreground": toRGB(colors.indigo["50"]),
+          "--secondary": toRGB(colors.blue["500"]),
+          "--secondary-light": toRGB(colors.blue["400"]),
+          "--secondary-dark": toRGB(colors.blue["600"]),
+          "--secondary-foreground": toRGB(colors.blue["50"]),
+
+          "--tertiary": toRGB(colors.cyan["500"]),
+          "--tertiary-light": toRGB(colors.cyan["400"]),
+          "--tertiary-dark": toRGB(colors.cyan["600"]),
+          "--tertiary-foreground": toRGB(colors.cyan["50"]),
 
           "--accent": toRGB(colors.zinc["900"]),
           "--accent-light": toRGB(colors.zinc["800"]),
