@@ -1,10 +1,12 @@
-// DONE REVIEWING: GITHUB COMMIT
+// DONE REVIEWING: GITHUB COMMIT 1️⃣
+
+import Header from "./_components/header"
 
 const Page = async function Page() {
   return (
-    <main>
-      <div className="mx-auto max-w-md py-20">Obaidah AL-Enezi</div>
-    </main>
+    <div className="bg-background">
+      <Header />
+    </div>
   )
 }
 
