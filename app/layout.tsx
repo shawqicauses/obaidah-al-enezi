@@ -1,19 +1,19 @@
-// DONE REVIEWING: GITHUB COMMIT
-import {Poppins} from "next/font/google"
+// DONE REVIEWING: GITHUB COMMIT 1️⃣
+import {IBM_Plex_Sans_Arabic} from "next/font/google"
 import {PropsWithChildren} from "react"
 import "../styles/global.css"
 import Providers from "./providers"
 
-const poppins = Poppins({
+const FONT = IBM_Plex_Sans_Arabic({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]
+  weight: ["100", "200", "300", "400", "500", "600", "700"]
 })
 
 const Layout = function Layout({children}: PropsWithChildren) {
   return (
-    <html lang="en">
+    <html lang="ar" dir="rtl">
       <head />
-      <body className={poppins.className}>
+      <body className={FONT.className}>
         <Providers>{children}</Providers>
       </body>
     </html>
