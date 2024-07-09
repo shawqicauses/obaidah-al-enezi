@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT 1️⃣
+// DONE REVIEWING: GITHUB COMMIT 2️⃣
 import Image from "next/image"
 import Link from "next/link"
 import {Fragment, HTMLAttributes} from "react"
@@ -33,7 +33,7 @@ const Header = function Header() {
           </div>
         </nav>
       </header>
-      <main className="isolate">
+      <div className="isolate">
         <div className="relative isolate -z-10 overflow-hidden bg-gradient-to-b from-blue-100/20 pt-14">
           <div
             aria-hidden="true"
@@ -64,7 +64,7 @@ const Header = function Header() {
             <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-background sm:h-32" />
           </div>
         </div>
-      </main>
+      </div>
     </Fragment>
   )
 }
