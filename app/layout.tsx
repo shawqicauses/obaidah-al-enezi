@@ -1,4 +1,5 @@
-// DONE REVIEWING: GITHUB COMMIT 2️⃣
+// DONE REVIEWING: GITHUB COMMIT 3️⃣
+/* eslint camelcase: "off" */
 import {IBM_Plex_Sans_Arabic} from "next/font/google"
 import {PropsWithChildren} from "react"
 import "../styles/global.css"
