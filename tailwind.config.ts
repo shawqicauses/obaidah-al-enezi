@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT 1️⃣
+// DONE REVIEWING: GITHUB COMMIT 2️⃣
 
 /* eslint import/no-extraneous-dependencies: "off" */
 
@@ -270,12 +270,12 @@ export default {
       addBase({
         ":root": {
           "--background": toRGB(colors.white),
-          "--foreground": toRGB(colors.zinc["950"]),
+          "--foreground": toRGB(colors.slate["950"]),
 
-          "--border-light": toRGB(colors.zinc["100"]),
-          "--border": toRGB(colors.zinc["200"]),
-          "--ring": toRGB(colors.zinc["400"]),
-          "--input": toRGB(colors.zinc["200"]),
+          "--border-light": toRGB(colors.slate["100"]),
+          "--border": toRGB(colors.slate["200"]),
+          "--ring": toRGB(colors.slate["400"]),
+          "--input": toRGB(colors.slate["200"]),
 
           "--primary": toRGB(colors.red["500"]),
           "--primary-light": toRGB(colors.red["400"]),
@@ -292,22 +292,22 @@ export default {
           "--tertiary-dark": toRGB(colors.cyan["600"]),
           "--tertiary-foreground": toRGB(colors.cyan["50"]),
 
-          "--accent": toRGB(colors.zinc["900"]),
-          "--accent-light": toRGB(colors.zinc["800"]),
-          "--accent-dark": toRGB(colors.zinc["950"]),
-          "--accent-foreground": toRGB(colors.zinc["100"]),
+          "--accent": toRGB(colors.slate["900"]),
+          "--accent-light": toRGB(colors.slate["800"]),
+          "--accent-dark": toRGB(colors.slate["950"]),
+          "--accent-foreground": toRGB(colors.slate["100"]),
 
-          "--muted": toRGB(colors.zinc["100"]),
-          "--muted-foreground": toRGB(colors.zinc["500"])
+          "--muted": toRGB(colors.slate["100"]),
+          "--muted-foreground": toRGB(colors.slate["500"])
         },
         ".dark": {
-          "--background": toRGB(colors.zinc["950"]),
-          "--foreground": toRGB(colors.zinc["50"]),
+          "--background": toRGB(colors.slate["950"]),
+          "--foreground": toRGB(colors.slate["50"]),
 
-          "--border-light": toRGB(colors.zinc["900"]),
-          "--border": toRGB(colors.zinc["800"]),
-          "--ring": toRGB(colors.zinc["300"]),
-          "--input": toRGB(colors.zinc["800"]),
+          "--border-light": toRGB(colors.slate["900"]),
+          "--border": toRGB(colors.slate["800"]),
+          "--ring": toRGB(colors.slate["300"]),
+          "--input": toRGB(colors.slate["800"]),
 
           "--primary": toRGB(colors.red["400"]),
           "--primary-light": toRGB(colors.red["300"]),
@@ -319,13 +319,13 @@ export default {
           "--secondary-dark": toRGB(colors.indigo["500"]),
           "--secondary-foreground": toRGB(colors.indigo["950"]),
 
-          "--accent": toRGB(colors.zinc["50"]),
+          "--accent": toRGB(colors.slate["50"]),
           "--accent-light": toRGB(colors.white),
-          "--accent-dark": toRGB(colors.zinc["100"]),
-          "--accent-foreground": toRGB(colors.zinc["950"]),
+          "--accent-dark": toRGB(colors.slate["100"]),
+          "--accent-foreground": toRGB(colors.slate["950"]),
 
-          "--muted": toRGB(colors.zinc["800"]),
-          "--muted-foreground": toRGB(colors.zinc["400"])
+          "--muted": toRGB(colors.slate["800"]),
+          "--muted-foreground": toRGB(colors.slate["400"])
         }
       })
     })

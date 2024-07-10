@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT
+// DONE REVIEWING: GITHUB COMMIT 1️⃣
 
 const timeline = [
   {id: 0, name: "ﺑﺎﺑﻜﻮ ﻟﻠﻐﺎﺯ", type: "خبرة عملية"},
@@ -12,7 +12,7 @@ const timeline = [
 const Timeline = function Timeline() {
   return (
     <div className="mx-auto -mt-8 max-w-xl-7 px-6 lg:px-8">
-      <div className="mx-auto grid max-w-xl-2 grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">
+      <div className="mx-auto grid max-w-xl-2 grid-cols-1 gap-8 overflow-hidden sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
         {timeline.map((element) => (
           <div key={element.id}>
             <div className="flex items-center text-sm font-semi-bold leading-6 text-secondary">
@@ -22,7 +22,7 @@ const Timeline = function Timeline() {
               {element.type}
               <div
                 aria-hidden="true"
-                className="absolute -mr-2 h-px w-screen translate-x-full bg-foreground/10 sm:-mr-4 lg:static lg:-ml-6 lg:mr-8 lg:w-auto lg:flex-auto lg:-translate-x-0"
+                className="absolute -mr-2 block h-px w-screen translate-x-full bg-foreground/10 sm:-mr-4 sm:hidden lg:static lg:-ml-6 lg:mr-8 lg:block lg:w-auto lg:flex-auto lg:-translate-x-0"
               />
             </div>
             <p className="mt-6 text-lg font-semi-bold leading-8 tracking-tight text-foreground">
