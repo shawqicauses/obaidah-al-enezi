@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT
+// DONE REVIEWING: GITHUB COMMIT 1️⃣
 import Image from "next/image"
 
 const Footer = function Footer() {
@@ -8,6 +8,16 @@ const Footer = function Footer() {
         <h2 className="text-center text-xl-3 font-bold tracking-tight text-foreground sm:text-xl-4">
           شكراً <span className="text-secondary">لكم</span>.
         </h2>
+        <div className="mt-5 flex w-full flex-wrap justify-center gap-5 text-lg font-medium">
+          <span>تواصل معي عبر:</span>
+          <a href="mailto:obaidah.alsoub@bapcoenergies.com" className="text-secondary">
+            الإيميل
+          </a>
+          <span>أو</span>
+          <a href="tel:+97339999728" className="text-secondary">
+            الجوال
+          </a>
+        </div>
         <div className="mt-8 flex items-center justify-center gap-2">
           <Image
             src="/assets/omq-logo-slate-950.png"
@@ -16,24 +26,10 @@ const Footer = function Footer() {
             className="!static !h-auto !w-8"
           />
           <p className="text-lg font-medium text-foreground">
-            بواسطة{" "}
-            <a
-              href="mailto:obaidah.alsoub@bapcoenergies.com"
-              className="font-medium text-secondary">
-              عُبيدة ماهر
-            </a>{" "}
-            و{" "}
-            <a
-              href="https://instagram.com/shawqicauses"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium text-secondary">
-              شوقي حاتم
-            </a>
-            .
+            بواسطة <span className="font-medium text-secondary">عُبيدة ماهر</span> و{" "}
+            <span className="font-medium text-secondary">شوقي حاتم</span>.
           </p>
         </div>
-        <p />
       </div>
     </footer>
   )

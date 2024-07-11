@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT 3️⃣
+// DONE REVIEWING: GITHUB COMMIT 4️⃣
 import Image from "next/image"
 import {HTMLAttributes} from "react"
 import {cn} from "../../lib/utils"
@@ -24,16 +24,16 @@ const Header = function Header() {
           <Highlight>نُصلح لنبقى</Highlight>
         </h1>
         <div className="mx-auto max-w-xl-2 lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-20 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
-          <p className="mt-0 max-w-xl-2 text-lg leading-8 text-foreground sm:text-xl-3 sm:leading-relaxed lg:col-span-2 lg:mt-20 xl:col-auto">
+          <p className="mt-0 max-w-xl-2 text-xl-2 !leading-relaxed text-foreground sm:text-xl-3 lg:col-span-2 lg:mt-20 xl:col-auto">
             ﺍﻷﺧﻮﺓ ﻭﺍﻷﺧﻮﺍﺕ ﺃﻋﻀﺎﺀ ﻧﻘﺎﺑﺔ ﺑﺎﺑﻜﻮ ﻟﻠﻐﺎﺯ ﺍﻧﻄﻼﻗًﺎ ﻣﻦ ﻭﺍﺟﺒﻲ ﻭﺷﻌﻮﺭﻱ ﺑﺎﻟﻤﺴﺌﻮﻟﻴﺔ ﺗﺠﺎﻩ ﺍﻟﻌﺎﻣﻠﻴﻦ
             ﻓﻲ ﺷﺮﻛﺔ ﺑﺎﺑﻜﻮ ﻟﻠﻐﺎﺯ ﻳﻄﻴﺐ ﻟﻲ ﺃﻥ ﺃﻋﻠﻦ ﻟﻜﻢ ﺧﻮﺽ انتخابات ﺍﻟﻨﻘﺎﺑﺔ ﺍﻟﻌﻤﺎﻟﻴﺔ ﻟﻌﺎﻡ 2024، والله
             ولي التوفيق.
           </p>
           <div className="mt-10 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-            <p className="text-xl-4 font-medium !leading-[1.3] tracking-tight text-foreground sm:text-xl">
-              عُبيدة ماهر.
+            <p className="text-xl-2 font-medium !leading-[1.3] tracking-tight text-foreground sm:text-xl-3">
+              عُبيدة ماهر
             </p>
-            <p className="mt-1 text-lg leading-none text-muted-foreground">دائرة العمليات</p>
+            <p className="mt-2 text-xl leading-none text-muted-foreground">دائرة العمليات</p>
           </div>
           <div className="mt-10 flex items-end justify-end overflow-hidden rounded-xl-2 bg-blue-600/10 sm:mt-20 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2">
             <Image
