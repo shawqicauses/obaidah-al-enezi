@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT
+// DONE REVIEWING: GITHUB COMMIT 1️⃣
 import {ArrowLeftIcon} from "lucide-react"
 
 const values = [
@@ -37,17 +37,17 @@ const Values = function Values() {
           المبادئ والقيم
         </h2>
       </div>
-      <dl className="mx-auto mt-16 grid max-w-xl-2 grid-cols-1 gap-8 text-base leading-7 text-muted-foreground sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
+      <dl className="mx-auto mt-16 grid max-w-xl-2 grid-cols-1 gap-8 leading-7 text-muted-foreground sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
         {values.map((value) => (
           <div key={value.id} className="relative pr-9">
-            <dt className="inline font-semi-bold text-foreground">
+            <dt className="inline text-xl font-semi-bold text-foreground">
               <ArrowLeftIcon
                 aria-hidden="true"
                 className="absolute right-1 top-1 h-5 w-5 text-secondary"
               />
               {value.name}
             </dt>{" "}
-            <dd className="inline">{value.description}</dd>
+            <dd className="inline text-lg">{value.description}</dd>
           </div>
         ))}
       </dl>

@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT 1️⃣
+// DONE REVIEWING: GITHUB COMMIT 2️⃣
 import Image from "next/image"
 
 const Footer = function Footer() {
@@ -6,17 +6,13 @@ const Footer = function Footer() {
     <footer className="mx-auto mb-10 mt-32 max-w-xl-7 px-6 sm:mt-40 lg:px-8">
       <div className="mx-auto max-w-xl-2">
         <h2 className="text-center text-xl-3 font-bold tracking-tight text-foreground sm:text-xl-4">
-          شكراً <span className="text-secondary">لكم</span>.
+          شكراً لكم.
         </h2>
         <div className="mt-5 flex w-full flex-wrap justify-center gap-5 text-lg font-medium">
           <span>تواصل معي عبر:</span>
-          <a href="mailto:obaidah.alsoub@bapcoenergies.com" className="text-secondary">
-            الإيميل
-          </a>
+          <a href="mailto:obaidah.alsoub@bapcoenergies.com">الإيميل</a>
           <span>أو</span>
-          <a href="tel:+97339999728" className="text-secondary">
-            الجوال
-          </a>
+          <a href="tel:+97339999728">النقال</a>
         </div>
         <div className="mt-8 flex items-center justify-center gap-2">
           <Image
@@ -26,8 +22,8 @@ const Footer = function Footer() {
             className="!static !h-auto !w-8"
           />
           <p className="text-lg font-medium text-foreground">
-            بواسطة <span className="font-medium text-secondary">عُبيدة ماهر</span> و{" "}
-            <span className="font-medium text-secondary">شوقي حاتم</span>.
+            بواسطة <span className="font-medium">عُبيدة ماهر</span> و{" "}
+            <span className="font-medium">شوقي حاتم</span>.
           </p>
         </div>
       </div>
