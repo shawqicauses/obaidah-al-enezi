@@ -1,4 +1,4 @@
-// DONE REVIEWING: GITHUB COMMIT 4️⃣
+// DONE REVIEWING: GITHUB COMMIT 5️⃣
 import Image from "next/image"
 import {HTMLAttributes} from "react"
 import {cn} from "../../lib/utils"
@@ -21,11 +21,11 @@ const Header = function Header() {
       />
       <div className="mx-auto max-w-xl-7 px-6 py-32 sm:py-40 lg:px-8">
         <h1 className="mb-20 text-center text-xl-5 font-bold tracking-tight text-foreground sm:text-xl-7 md:text-xl-9">
-          <Highlight>نُصلح لنبقى</Highlight>
+          <Highlight>نُصلح لتبقى</Highlight>
         </h1>
         <div className="mx-auto max-w-xl-2 lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-20 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
           <p className="mt-0 max-w-xl-2 text-xl-2 !leading-relaxed text-foreground sm:text-xl-3 lg:col-span-2 lg:mt-20 xl:col-auto">
-            ﺍﻷﺧﻮﺓ ﻭﺍﻷﺧﻮﺍﺕ ﺃﻋﻀﺎﺀ ﻧﻘﺎﺑﺔ ﺑﺎﺑﻜﻮ ﻟﻠﻐﺎﺯ ﺍﻧﻄﻼﻗًﺎ ﻣﻦ ﻭﺍﺟﺒﻲ ﻭﺷﻌﻮﺭﻱ ﺑﺎﻟﻤﺴﺌﻮﻟﻴﺔ ﺗﺠﺎﻩ ﺍﻟﻌﺎﻣﻠﻴﻦ
+            ﺍﻷﺧﻮﺓ ﻭﺍﻷﺧﻮﺍﺕ ﺃﻋﻀﺎﺀ ﻧﻘﺎﺑﺔ ﺑﺎﺑﻜﻮ ﻟﻠﻐﺎﺯ ﺍﻧﻄﻼﻗًﺎ ﻣﻦ ﻭﺍﺟﺒﻲ ﻭﺷﻌﻮﺭﻱ بالمسؤولية ﺗﺠﺎﻩ ﺍﻟﻌﺎﻣﻠﻴﻦ
             ﻓﻲ ﺷﺮﻛﺔ ﺑﺎﺑﻜﻮ ﻟﻠﻐﺎﺯ ﻳﻄﻴﺐ ﻟﻲ ﺃﻥ ﺃﻋﻠﻦ ﻟﻜﻢ ﺧﻮﺽ انتخابات ﺍﻟﻨﻘﺎﺑﺔ ﺍﻟﻌﻤﺎﻟﻴﺔ ﻟﻌﺎﻡ 2024، والله
             ولي التوفيق.
           </p>
