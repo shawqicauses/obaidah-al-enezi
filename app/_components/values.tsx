@@ -1,16 +1,16 @@
-// DONE REVIEWING: GITHUB COMMIT 1️⃣
+// DONE REVIEWING: GITHUB COMMIT 2️⃣
 import {ArrowLeftIcon} from "lucide-react"
 
 const values = [
   {
     id: 0,
     name: "ﺍﻟﻤﺼﺪﺍﻗﻴﺔ",
-    description: "أنتهج ﺍﻟﺼﺪﻕ ﺑﺎﻟﻘﻮﻝ ﻭﺍﻟﻌﻤﻞ، ﻭﺃﻋﻤﻞ ﺑﻜﻞ ﺷﻔﺎﻓﻴﺔ ﻣﻊ ﺍﻟﺠﻤﻴﻊ"
+    description: "انتهج ﺍﻟﺼﺪﻕ ﺑﺎﻟﻘﻮﻝ ﻭﺍﻟﻌﻤﻞ، ﻭﺃﻋﻤﻞ ﺑﻜﻞ ﺷﻔﺎﻓﻴﺔ ﻣﻊ ﺍﻟﺠﻤﻴﻊ"
   },
   {
     id: 1,
-    name: "ﺍﻟﻤﺴﺌﻮﻟﻴﺔ",
-    description: "ﺃﻟﺘﺰﻡ ﺑﻜﺎﻣﻞ مسؤولياتي وواجباتي ﺗﺠﺎﻩ ﺯﻣﻼﺋﻲ ﻭﺯﻣﻴﻼﺗﻲ"
+    name: "المسؤولية",
+    description: "التزم ﺑﻜﺎﻣﻞ مسؤولياتي وواجباتي ﺗﺠﺎﻩ ﺯﻣﻼﺋﻲ ﻭﺯﻣﻴﻼﺗﻲ"
   },
   {
     id: 2,
